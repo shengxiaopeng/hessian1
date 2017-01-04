@@ -21,7 +21,8 @@ public class PersonTest {
             System.out.println(resultBean.getUserId() + "\t"  
                     + resultBean.getUserName());  
         } catch (MalformedURLException e) {
-            e.printStackTrace();  
+            e.printStackTrace();
+
         }  
     }  
 } 
