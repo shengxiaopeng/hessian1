@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Profile;
 @Configuration
 public class ProfileConfig {
 
-    @Bean
+      @Bean
     @Profile("dev")
     public  TestBean devBean(){
         TestBean testBean = new TestBean();
